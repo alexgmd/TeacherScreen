@@ -1,0 +1,185 @@
+body{
+  color:white;
+  font-family: 'Lato', sans-serif;
+}
+#title
+{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px ;
+}
+
+#subtitle{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-size: 20px ;
+}
+
+.wrap-confirm {
+  color:white;
+  margin-left : 45%;
+}
+
+/* -- NAVIGATION -- */
+
+/*Background*/
+.demo-layout-transparent {
+<!--  background: url('img/pulv2.jpg') center / cover;
+}
+
+/*Navigation bar*/
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+    your background is light. */
+}
+.demo-list-icon mdl-list
+{
+	text-align: center;
+}
+
+.mdl-grid
+{
+  margin-top: 0px;
+  margin-left: auto;
+}
+
+.demo-card-wide mdl-card mdl-shadow--2dp
+{
+  margin-left: 25px;
+}
+
+.mdl-layout__content {
+    text-align: center;
+}
+
+.mdl-card__title-text {
+  padding-left:10px;
+}
+
+.mdl-grid {
+  margin-left:170px;
+}
+
+.mdl-navigation{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px ;
+}
+.mdl-navigation a:link {
+  text-decoration:none;
+  color:white;
+  }
+.mdl-navigation a:hover {
+  opacity: 0.6;
+  transition: all .2s linear;
+}
+
+.material-icons {
+  color:white;
+}
+
+/* -- AGENDA PAGE -- */
+/*See also style in agenda.php*/
+.page-content {
+  text-align: center;
+}
+
+/*Button*/
+.bouton{
+  display: block;
+  margin: 0 auto;
+  display: inline-block;
+  border-radius: 1px;
+  background-color: #039be5;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.bouton span {
+  cursor: pointer;
+  background-color: #039be5;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bouton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.bouton:hover{
+  background-color: #0277bd ;
+}
+
+.bouton:hover span {
+  padding-right: 25px;
+  background-color: #0277bd ;
+}
+
+.bouton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.demo-card-wide.mdl-card {
+  width: 225px;
+  height: 50px;
+}
+.info{
+  margin: 20px auto;
+background-color: rgba(130,130,130,0.8);
+border-width: 0px;
+border-style: solid;
+border-color: white;
+padding: 10px 10px 10px 10px;
+width:500px;
+}
+
+.info .mdl-card__supporting-text{
+  position: relative;
+margin-left: auto;
+margin-right: auto;
+font-size: 18px;
+color: white;
+
+}
+
+.mdl-layout__container{
+position: absolute;
+width:100%;
+height:100%;
+top:0px;
+}
+body {
+
+padding: 0;
+font-family: 'Lato', sans-serif;
+font-size: 14px;
+color:white;
+background: url('../img/pulv2.jpg') center / cover;
+    background-attachment: fixed;
+
+}
+#calendar {
+max-width: 900px;
+margin: 0 auto 100px;
+background-color: rgba(130,130,130,0.7);
+}
+
+a[data-goto]{
+color: white;
+}
+.fc-unthemed td.fc-today {
+background-color: rgba(255,255,255,0.4);
+}

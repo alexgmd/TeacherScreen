@@ -1,0 +1,169 @@
+.demo-layout-transparent {
+  background: url('../img/pulv2.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+    your background is light. */
+  color: white;
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+
+.bouton {
+  background-color: #3a87ad;
+}
+
+#agenda .demo-layout-transparent .mdl-layout__header,
+#agenda .demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+    your background is light. */
+  color: black;
+}
+
+.demo-layout-transparent {
+  background: url('../img/pulv2.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  color: white;
+}
+body{
+  color:black;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+.demo-card-wide.mdl-card {
+  background: url('../img/blanc.jpg') center;
+  width: 225px;
+  height: 50px;
+}
+
+.edt a:link{
+  text-decoration:none;
+}
+.roundedImage{
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  width:90px;
+  height:90px;
+}
+
+body {
+
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  /*font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;*/
+  font-size: 14px;
+
+}
+.demo-card-wide.mdl-card {
+width: 225px;
+height: 50px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+body{
+  color:black;
+  font-family: 'Lato', sans-serif;
+}
+.home{
+  /*background-color: black;*/
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+
+#title
+{
+  text-align: center;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px ;
+}
+
+#subtitle{
+  text-align: center;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-size: 20px ;
+}
+
+.demo-list-icon mdl-list
+{
+	text-align: center;
+}
+
+.mdl-grid
+{
+  margin-top: 0px;
+  margin-left: auto;
+}
+
+.demo-card-wide mdl-card mdl-shadow--2dp
+{
+  margin-left: 25px;
+}
+
+/*
+#global {
+  margin-left: auto;
+  margin-right: auto;
+  width: ...; /* largeur obligatoire pour être centré
+}
+*/
+
+
+.mdl-layout__content {
+    text-align: center;
+}
+
+.mdl-card__title-text {
+  padding-left:10px;
+}
+
+.mdl-grid {
+  margin-left:170px;
+}
+.mdl-card__supporting-text{
+  font-size: 18px;
+}
+
+.mdl-navigation{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px ;
+}
+.mdl-navigation a:link {
+  text-decoration:none;
+  color:white;
+  }
+.mdl-navigation a:hover {
+  opacity: 0.6;
+  transition: all .2s linear;
+}
+
+
+/*AGENDA PAGE*/
+.bouton{
+  display: block;
+  margin : auto;
+}
+.info{
+  /*margin-left: 15%;
+  margin-right: 15%;*/
+  max-width: 450px;
+  margin: 0 auto;
+}
